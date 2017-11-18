@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xmlgui>
+
+<form id="1" name="Survey Form" submitTo="loopback" >
+
+<field name="fullname" label="Full Name" type="text" required="Y" min="5" max="20" integer="" options=""/>
+<field name="gender" label="Gender" type="radio" required="Y" min="" max="" integer="" options="Male|Female|Others"/>
+<field name="birthdate" label="Date of Birth(DD/MM/YYYY)" type="datepicker" required="Y" min="" max="" integer="" options=""/>
+<field name="district" label="Current District of Residence" type="choice" required="Y" min="" max="" integer="" options="Bagerhat|Barguna|Barisal|Bandarban|Bhola|Bogra|Brahmanbaria|Chandpur|Chapainawabganj|Chittagong|Chuadanga|Comilla|Cox's Bazar|Dhaka|Dinajpur|Faridpur|Feni|Gaibandha|Gazipur|Gopalganj|Habiganj|Jamalpur|Jessore|Jhalokathi|Jhenaidah|Joypurhat|Khagrachari|Khulna|Kishoreganj|Kurigram|Kushtia|Lakshmipur|Lalmonirhat|Madaripur|Magura|Manikganj|Meherpur|Moulvibazar|Munshiganj|Mymensingh|Naogaon|Narail|Narayanganj|Narsigdi|Natore|Noakhali|Netrakona|Nilphamari|Pabna|Panchagarh|Patuakhali|Pirojpur|Rajbari|Rajshahi|Rangamati|Rangpur|Satkhira|Shariatpur|Sherpur|Sirajganj|Sunamganj|Sylhet|Tangail|Thakurgaon"/>
+
+<field name="mobile" label="Mobile No." type="numeric" required="Y" min="11" max="11" integer="true" options=""/>
+<field name="email" label="Email Address" type="email" required="Y" min="" max="" integer="" options=""/>
+
+<field name="hons_subject" label="Hon's Subject" type="choice" required="N" min="" max="" integer="" options="Accounting Information System |Applied Physics |Arabic |Anthropology |Bangla |Botany |Banking and Insurance |Computer Science and Engineering |Chemistry and Chemical Engineering  |Chemistry |Disaster Science and Management |Electrical and Electronics Engineering |Electronics and Communication Engineering |Economics |English |Finance |Finance and Banking |Fine Arts |Forestry |International Business |Islamic History |Islamic Studies |Islamic History and Culture |International Relations |Library Science |Math |Marketing |Management Information System |Physics |Political Science |Psychology |Public Administration |Soil Science |Statistics |Sociology |Tourism |Zoology |Others"/>
+<field name="hons_subject_other" label="Other Subject" type="text" required="N" min="" max="" integer="" options=""/>
+
+<field name="hons_current_year" label="Hon's Current Year" type="choice" required="N" min="" max="" integer="" options="First Year|Second Year|Third Year|Fourth Year|Passed"/>
+<field name="hons_year" label="Hon's Passing Year" type="choice" required="N" min="" max="" integer="" options="1990|1991|1992|1993|1994|1995|1996|1997|1998|1999|2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016"/>
+
+<field name="masters_subject" label="Masters Subject" type="choice" required="N" min="" max="" integer="" options="Accounting Information System |Applied Physics |Arabic |Anthropology |Bangla |Botany |Banking and Insurance |Computer Science and Engineering |Chemistry and Chemical Engineering  |Chemistry |Disaster Science and Management |Electrical and Electronics Engineering |Electronics and Communication Engineering |Economics |English |Finance |Finance and Banking |Fine Arts |Forestry |International Business |Islamic History |Islamic Studies |Islamic History and Culture |International Relations |Library Science |Math |Marketing |Management Information System |Physics |Political Science |Psychology |Public Administration |Soil Science |Statistics |Sociology |Tourism |Zoology |Others"/>
+<field name="masters_subject_other" label="Other Subject" type="text" required="N" min="" max="" integer="" options=""/>
+
+<field name="masters_current_year" label="Masters Current Year" type="choice" required="N" min="" max="" integer="" options="First Year|Second Year|Passed"/>
+<field name="masters_year" label="Masters Passing Year" type="choice" required="N" min="" max="" integer="" options="1990|1991|1992|1993|1994|1995|1996|1997|1998|1999|2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016"/>
+
+<field name="diploma_subject" label="Diploma Subject" type="choice" required="N" min="" max="" integer="" options="Accounting Information System |Applied Physics |Arabic |Anthropology |Bangla |Botany |Banking and Insurance |Computer Science and Engineering |Chemistry and Chemical Engineering  |Chemistry |Disaster Science and Management |Electrical and Electronics Engineering |Electronics and Communication Engineering |Economics |English |Finance |Finance and Banking |Fine Arts |Forestry |International Business |Islamic History |Islamic Studies |Islamic History and Culture |International Relations |Library Science |Math |Marketing |Management Information System |Physics |Political Science |Psychology |Public Administration |Soil Science |Statistics |Sociology |Tourism |Zoology |Others"/>
+<field name="diploma_subject_other" label="Other Subject" type="text" required="N" min="" max="" integer="" options=""/>
+
+<field name="diploma_current_year" label="Diploma Current Year" type="choice" required="N" min="" max="" integer="" options="First Year|Second Year|Third Year|Fourth Year|Passed"/>
+<field name="diploma_year" label="Diploma Passing Year" type="choice" required="N" min="" max="" integer="" options="1990|1991|1992|1993|1994|1995|1996|1997|1998|1999|2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016"/>
+
+<field name="lict_enrolled" label="Are you enrolled in any LICT Training Program?" type="choice" required="Y" min="" max="" integer="" options="No|Yes"/>
+
+<field name="coupon_code" label="Coupon Code" type="text" required="Y" min="" max="" integer="" options=""/>
+
+</form>
+</xmlgui>
